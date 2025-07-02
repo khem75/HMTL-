@@ -1,0 +1,40 @@
+
+<html>
+<head>
+    <title>Frameset Example with CSS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #topFrame {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        #leftFrame {
+            background: #f8f9fa;
+            padding: 15px;
+        }
+        #rightFrame {
+            padding: 20px;
+        }
+    </style>
+</head>
+<frameset rows="20%, 80%" border="1">
+    <!-- Top Section (20%) for Navigation -->
+    <frame src="navigation.html" name="topFrame" id="topFrame">
+
+    <!-- Bottom Section (80%) divided into two columns -->
+    <frameset cols="25%, 75%">
+        <frame src="menu.html" name="leftFrame" id="leftFrame">
+        <frame src="content.html" name="rightFrame" id="rightFrame">
+    </frameset>
+</frameset>
+<noframes>
+    <body>
+        <p>Your browser does not support frames.</p>
+    </body>
+</noframes>
+</html>

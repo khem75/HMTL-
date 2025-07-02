@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Era University Enquiry Form</title>
+</head>
+<body>
+
+    <h2>Graphic Era University Enquiry Form</h2>
+
+    <form action="submit_form.php" method="post">
+        
+        <!-- Full Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <!-- Course Selection -->
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="bca">BCA</option>
+            <option value="btech">B.Tech</option>
+            <option value="mba">MBA</option>
+            <option value="mca">MCA</option>
+        </select>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Message/Enquiry -->
+        <label for="message">Your Enquiry:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

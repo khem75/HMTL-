@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.inline {
+    display: inline;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.none {
+    display: none;
+}

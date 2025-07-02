@@ -1,0 +1,7 @@
+<html>
+<head>
+<tittle> from example</tittle>
+<body>
+
+<input type="text">
+</body>
